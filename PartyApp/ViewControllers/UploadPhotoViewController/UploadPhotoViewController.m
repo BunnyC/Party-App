@@ -7,6 +7,7 @@
 //
 
 #import "UploadPhotoViewController.h"
+#import "ProfileViewController.h"
 
 @interface UploadPhotoViewController ()
 
@@ -83,6 +84,8 @@
 }
 
 - (IBAction)nextButtonAction:(id)sender {
+    ProfileViewController *objProfileView = [[ProfileViewController alloc] initWithNibName:@"ProfileViewController" bundle:nil];
+    [self.navigationController pushViewController:objProfileView animated:YES];
 }
 
 

@@ -49,7 +49,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tickImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="FLi-tV-83t">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onlineImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="FLi-tV-83t">
                             <rect key="frame" x="32" y="7" width="15" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -133,9 +133,9 @@
     </objects>
     <resources>
         <image name="commentIcon.png" width="20" height="17"/>
+        <image name="onlineImage.png" width="13" height="13"/>
         <image name="pinkButton.png" width="137" height="36"/>
         <image name="purpleButton.png" width="183" height="36"/>
-        <image name="tickImage.png" width="13" height="13"/>
         <image name="whiteButton.png" width="183" height="36"/>
         <image name="yellowButton.png" width="183" height="36"/>
     </resources>

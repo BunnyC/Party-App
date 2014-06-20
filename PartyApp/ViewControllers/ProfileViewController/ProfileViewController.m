@@ -7,6 +7,7 @@
 //
 
 #import "ProfileViewController.h"
+#import "LogNightViewController.h"
 
 @interface ProfileViewController ()
 
@@ -37,6 +38,8 @@
 
 #pragma mark - IBActions
 - (IBAction)logNightAction:(id)sender {
+    LogNightViewController *objLogNight = [[LogNightViewController alloc] initWithNibName:@"LogNightViewController" bundle:nil];
+    [self.navigationController pushViewController:objLogNight animated:YES];
 }
 - (IBAction)setReminderAction:(id)sender {
 }

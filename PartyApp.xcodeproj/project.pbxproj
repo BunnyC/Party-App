@@ -41,14 +41,24 @@
 		84AC0E0019511AD000B19446 /* UploadPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0DFE19511AD000B19446 /* UploadPhotoViewController.xib */; };
 		84AC0E061951213E00B19446 /* commentIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E011951213D00B19446 /* commentIcon@2x.png */; };
 		84AC0E071951213E00B19446 /* pinkButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E021951213D00B19446 /* pinkButton@2x.png */; };
-		84AC0E081951213E00B19446 /* tickImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E031951213D00B19446 /* tickImage@2x.png */; };
+		84AC0E081951213E00B19446 /* onlineImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E031951213D00B19446 /* onlineImage@2x.png */; };
 		84AC0E091951213E00B19446 /* whiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E041951213D00B19446 /* whiteButton@2x.png */; };
 		84AC0E0A1951213E00B19446 /* yellowButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E051951213D00B19446 /* yellowButton@2x.png */; };
 		84AC0E101951216100B19446 /* commentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0B1951216100B19446 /* commentIcon.png */; };
 		84AC0E111951216100B19446 /* pinkButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0C1951216100B19446 /* pinkButton.png */; };
-		84AC0E121951216100B19446 /* tickImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0D1951216100B19446 /* tickImage.png */; };
+		84AC0E121951216100B19446 /* onlineImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0D1951216100B19446 /* onlineImage.png */; };
 		84AC0E131951216100B19446 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0E1951216100B19446 /* whiteButton.png */; };
 		84AC0E141951216100B19446 /* yellowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0F1951216100B19446 /* yellowButton.png */; };
+		84AF856E1953B9FC0012271F /* LogNightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF856C1953B9FC0012271F /* LogNightViewController.m */; };
+		84AF856F1953B9FC0012271F /* LogNightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AF856D1953B9FC0012271F /* LogNightViewController.xib */; };
+		84AF85741953BFF10012271F /* barButtonTick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF85701953BFF10012271F /* barButtonTick.png */; };
+		84AF85751953BFF10012271F /* facebookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF85711953BFF10012271F /* facebookIcon.png */; };
+		84AF85761953BFF10012271F /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF85721953BFF10012271F /* location.png */; };
+		84AF85771953BFF10012271F /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF85731953BFF10012271F /* tick.png */; };
+		84AF857C1953C0070012271F /* barButtonTick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF85781953C0070012271F /* barButtonTick@2x.png */; };
+		84AF857D1953C0070012271F /* facebookIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF85791953C0070012271F /* facebookIcon@2x.png */; };
+		84AF857E1953C0070012271F /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF857A1953C0070012271F /* location@2x.png */; };
+		84AF857F1953C0070012271F /* tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF857B1953C0070012271F /* tick@2x.png */; };
 		84B2C184194D888F006753E4 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2C182194D888F006753E4 /* RegisterViewController.m */; };
 		84B2C185194D888F006753E4 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B2C183194D888F006753E4 /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
@@ -108,14 +118,25 @@
 		84AC0DFE19511AD000B19446 /* UploadPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UploadPhotoViewController.xib; path = ViewControllers/UploadPhotoViewController/UploadPhotoViewController.xib; sourceTree = "<group>"; };
 		84AC0E011951213D00B19446 /* commentIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "commentIcon@2x.png"; sourceTree = "<group>"; };
 		84AC0E021951213D00B19446 /* pinkButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinkButton@2x.png"; sourceTree = "<group>"; };
-		84AC0E031951213D00B19446 /* tickImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tickImage@2x.png"; sourceTree = "<group>"; };
+		84AC0E031951213D00B19446 /* onlineImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "onlineImage@2x.png"; sourceTree = "<group>"; };
 		84AC0E041951213D00B19446 /* whiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButton@2x.png"; sourceTree = "<group>"; };
 		84AC0E051951213D00B19446 /* yellowButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellowButton@2x.png"; sourceTree = "<group>"; };
 		84AC0E0B1951216100B19446 /* commentIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commentIcon.png; sourceTree = "<group>"; };
 		84AC0E0C1951216100B19446 /* pinkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkButton.png; sourceTree = "<group>"; };
-		84AC0E0D1951216100B19446 /* tickImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tickImage.png; sourceTree = "<group>"; };
+		84AC0E0D1951216100B19446 /* onlineImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onlineImage.png; sourceTree = "<group>"; };
 		84AC0E0E1951216100B19446 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		84AC0E0F1951216100B19446 /* yellowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowButton.png; sourceTree = "<group>"; };
+		84AF856B1953B9FC0012271F /* LogNightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogNightViewController.h; path = ViewControllers/LogNightViewController/LogNightViewController.h; sourceTree = "<group>"; };
+		84AF856C1953B9FC0012271F /* LogNightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogNightViewController.m; path = ViewControllers/LogNightViewController/LogNightViewController.m; sourceTree = "<group>"; };
+		84AF856D1953B9FC0012271F /* LogNightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogNightViewController.xib; path = ViewControllers/LogNightViewController/LogNightViewController.xib; sourceTree = "<group>"; };
+		84AF85701953BFF10012271F /* barButtonTick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barButtonTick.png; sourceTree = "<group>"; };
+		84AF85711953BFF10012271F /* facebookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookIcon.png; sourceTree = "<group>"; };
+		84AF85721953BFF10012271F /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		84AF85731953BFF10012271F /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		84AF85781953C0070012271F /* barButtonTick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barButtonTick@2x.png"; sourceTree = "<group>"; };
+		84AF85791953C0070012271F /* facebookIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookIcon@2x.png"; sourceTree = "<group>"; };
+		84AF857A1953C0070012271F /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		84AF857B1953C0070012271F /* tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick@2x.png"; sourceTree = "<group>"; };
 		84B2C181194D888F006753E4 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = ViewControllers/RegisterViewController/RegisterViewController.h; sourceTree = "<group>"; };
 		84B2C182194D888F006753E4 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = ViewControllers/RegisterViewController/RegisterViewController.m; sourceTree = "<group>"; };
 		84B2C183194D888F006753E4 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = ViewControllers/RegisterViewController/RegisterViewController.xib; sourceTree = "<group>"; };
@@ -247,6 +268,7 @@
 		8425AF90194C461A00E8CCF3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84AF856A1953B9C80012271F /* LogNightViewController */,
 				8425AFA4194C52FA00E8CCF3 /* BaseViewController */,
 				8425AF91194C462600E8CCF3 /* LoginViewController */,
 				84B2C180194D885B006753E4 /* RegisterViewController */,
@@ -285,6 +307,10 @@
 		8425AF99194C52AA00E8CCF3 /* Retina */ = {
 			isa = PBXGroup;
 			children = (
+				84AF85781953C0070012271F /* barButtonTick@2x.png */,
+				84AF85791953C0070012271F /* facebookIcon@2x.png */,
+				84AF857A1953C0070012271F /* location@2x.png */,
+				84AF857B1953C0070012271F /* tick@2x.png */,
 				8425AF9A194C52AA00E8CCF3 /* appBackground4@2x.png */,
 				8425AF9B194C52AA00E8CCF3 /* appBackground@2x.png */,
 				8425AFB7194C841800E8CCF3 /* blueButton@2x.png */,
@@ -293,7 +319,7 @@
 				8425AFB8194C841800E8CCF3 /* magentaButton@2x.png */,
 				84AC0E021951213D00B19446 /* pinkButton@2x.png */,
 				8425AFB9194C841800E8CCF3 /* purpleButton@2x.png */,
-				84AC0E031951213D00B19446 /* tickImage@2x.png */,
+				84AC0E031951213D00B19446 /* onlineImage@2x.png */,
 				84AC0E041951213D00B19446 /* whiteButton@2x.png */,
 				84AC0E051951213D00B19446 /* yellowButton@2x.png */,
 			);
@@ -303,9 +329,13 @@
 		8425AF9C194C52AA00E8CCF3 /* Simple */ = {
 			isa = PBXGroup;
 			children = (
+				84AF85701953BFF10012271F /* barButtonTick.png */,
+				84AF85711953BFF10012271F /* facebookIcon.png */,
+				84AF85721953BFF10012271F /* location.png */,
+				84AF85731953BFF10012271F /* tick.png */,
 				84AC0E0B1951216100B19446 /* commentIcon.png */,
 				84AC0E0C1951216100B19446 /* pinkButton.png */,
-				84AC0E0D1951216100B19446 /* tickImage.png */,
+				84AC0E0D1951216100B19446 /* onlineImage.png */,
 				84AC0E0E1951216100B19446 /* whiteButton.png */,
 				84AC0E0F1951216100B19446 /* yellowButton.png */,
 				8425AFB1194C840000E8CCF3 /* blueButton.png */,
@@ -362,6 +392,16 @@
 				84AC0DF919511AAD00B19446 /* ProfileViewController.xib */,
 			);
 			name = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		84AF856A1953B9C80012271F /* LogNightViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84AF856B1953B9FC0012271F /* LogNightViewController.h */,
+				84AF856C1953B9FC0012271F /* LogNightViewController.m */,
+				84AF856D1953B9FC0012271F /* LogNightViewController.xib */,
+			);
+			name = LogNightViewController;
 			sourceTree = "<group>";
 		};
 		84B2C180194D885B006753E4 /* RegisterViewController */ = {
@@ -451,30 +491,39 @@
 			files = (
 				8425AFA0194C52AA00E8CCF3 /* appBackground4.png in Resources */,
 				8425AF69194C3E7800E8CCF3 /* InfoPlist.strings in Resources */,
+				84AF857E1953C0070012271F /* location@2x.png in Resources */,
 				84AC0E091951213E00B19446 /* whiteButton@2x.png in Resources */,
 				84AC0E101951216100B19446 /* commentIcon.png in Resources */,
 				8425AFBB194C841800E8CCF3 /* magentaButton@2x.png in Resources */,
 				84AC0E141951216100B19446 /* yellowButton.png in Resources */,
+				84AF85771953BFF10012271F /* tick.png in Resources */,
 				8425AFBA194C841800E8CCF3 /* blueButton@2x.png in Resources */,
 				8425AFBC194C841800E8CCF3 /* purpleButton@2x.png in Resources */,
 				84AC0E111951216100B19446 /* pinkButton.png in Resources */,
 				8425AFAE194C7EE000E8CCF3 /* imageLogo@2x.png in Resources */,
 				84AC0E0019511AD000B19446 /* UploadPhotoViewController.xib in Resources */,
 				8425AF71194C3E7800E8CCF3 /* Images.xcassets in Resources */,
+				84AF85761953BFF10012271F /* location.png in Resources */,
 				84AC0E071951213E00B19446 /* pinkButton@2x.png in Resources */,
+				84AF857C1953C0070012271F /* barButtonTick@2x.png in Resources */,
 				84AC0E0A1951213E00B19446 /* yellowButton@2x.png in Resources */,
+				84AF85751953BFF10012271F /* facebookIcon.png in Resources */,
 				8425AFB6194C840000E8CCF3 /* purpleButton.png in Resources */,
 				84AC0E061951213E00B19446 /* commentIcon@2x.png in Resources */,
 				8425AFB0194C7EE800E8CCF3 /* imageLogo.png in Resources */,
 				8425AFB5194C840000E8CCF3 /* magentaButton.png in Resources */,
 				8425AF96194C468200E8CCF3 /* LoginViewController.xib in Resources */,
 				84B2C185194D888F006753E4 /* RegisterViewController.xib in Resources */,
-				84AC0E081951213E00B19446 /* tickImage@2x.png in Resources */,
+				84AC0E081951213E00B19446 /* onlineImage@2x.png in Resources */,
+				84AF85741953BFF10012271F /* barButtonTick.png in Resources */,
 				8425AFB4194C840000E8CCF3 /* blueButton.png in Resources */,
-				84AC0E121951216100B19446 /* tickImage.png in Resources */,
+				84AC0E121951216100B19446 /* onlineImage.png in Resources */,
 				8425AF9F194C52AA00E8CCF3 /* appBackground@2x.png in Resources */,
 				84AC0E131951216100B19446 /* whiteButton.png in Resources */,
+				84AF857F1953C0070012271F /* tick@2x.png in Resources */,
 				84AC0DFB19511AAD00B19446 /* ProfileViewController.xib in Resources */,
+				84AF857D1953C0070012271F /* facebookIcon@2x.png in Resources */,
+				84AF856F1953B9FC0012271F /* LogNightViewController.xib in Resources */,
 				8425AF9E194C52AA00E8CCF3 /* appBackground4@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +551,7 @@
 				8425AF95194C468200E8CCF3 /* LoginViewController.m in Sources */,
 				84B2C184194D888F006753E4 /* RegisterViewController.m in Sources */,
 				8425AFA8194C53A800E8CCF3 /* CommonFunctions.m in Sources */,
+				84AF856E1953B9FC0012271F /* LogNightViewController.m in Sources */,
 				8425AFAB194C54AF00E8CCF3 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
