@@ -8,7 +8,9 @@
 
 #import "LoginViewController.h"
 #import "RegisterViewController.h"
-
+#import "LoginModel.h"
+#import <FacebookSDK/FacebookSDK.h>
+#import "AppDelegate.h"
 @interface LoginViewController () <UITextFieldDelegate, UITextViewDelegate>
 
 @end
@@ -27,6 +29,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     // Do any additional setup after loading the view from its nib.
     [self.navigationController setNavigationBarHidden:true animated:true];
     [self setTitle:@"Login"];
@@ -63,6 +67,7 @@
     [attrTextForgotLabel addAttributes:dictAttrText range:rangeClickHere];
     
     [txtViewForgotPassword setAttributedText:attrTextForgotLabel];
+    
 }
 
 #pragma mark - TextView Delegates
@@ -91,9 +96,39 @@
 }
 
 - (IBAction)btnSignInAction:(id)sender {
+    
+    NSMutableDictionary *dicLoginDetail=[[NSMutableDictionary alloc]init];
+    [dicLoginDetail setValue:txtFieldUsername.text forKey:@"UserName"];
+    [dicLoginDetail setValue:txtFieldPassword.text forKey:@"Password"];
+    LoginModel *objLoginModel=[[LoginModel alloc]init];
+    [objLoginModel loginWithTarget:self Selector:@selector(serverResponse:) Detail:dicLoginDetail];
 }
 
 - (IBAction)btnConnectFacebookAction:(id)sender {
+    
+    // If the session state is any of the two "open" states when the button is clicked
+    if (FBSession.activeSession.state == FBSessionStateOpen
+        || FBSession.activeSession.state == FBSessionStateOpenTokenExtended) {
+        
+        // Close the session and remove the access token from the cache
+        // The session state handler (in the app delegate) will be called automatically
+        [FBSession.activeSession closeAndClearTokenInformation];
+        
+        // If the session state is not any of the two "open" states when the button is clicked
+    } else {
+        // Open a session showing the user the login UI
+        // You must ALWAYS ask for public_profile permissions when opening a session
+        [FBSession openActiveSessionWithReadPermissions:@[@"public_profile"]
+                                           allowLoginUI:YES
+                                      completionHandler:
+         ^(FBSession *session, FBSessionState state, NSError *error) {
+             
+             // Retrieve the app delegate
+             AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
+             // Call the app delegate's sessionStateChanged:state:error method to handle session state changes
+             [appDelegate sessionStateChanged:session state:state error:error];
+         }];
+    }
 }
 
 #pragma mark - Touch Methods
@@ -103,5 +138,24 @@
     if (![touchedView isKindOfClass:[UITextField class]])
         [self resignKeyboard];
 }
+
+#pragma mark - TextField Delegate Method
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
+#pragma mark - server Response
+
+// QuickBlox API queries delegate
+
+
+-(void)serverResponse:(QBUUser *)userDetail;
+{
+    NSLog(@"User Detail %@", userDetail);
+}
+
 
 @end

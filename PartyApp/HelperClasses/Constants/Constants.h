@@ -10,4 +10,9 @@
 
 @interface Constants : NSObject
 
+FOUNDATION_EXPORT  NSString *const KApplicationID;
+FOUNDATION_EXPORT  NSString *const KAuthorizationKey;
+FOUNDATION_EXPORT  NSString *const KAuthorizationSecret;
+FOUNDATION_EXPORT  NSString *const KAccountKey;
+
 @end

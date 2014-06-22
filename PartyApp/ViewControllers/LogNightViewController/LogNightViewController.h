@@ -8,7 +8,7 @@
 
 #import "BaseViewController.h"
 
-@interface LogNightViewController : BaseViewController {
+@interface LogNightViewController : BaseViewController{
     
     __weak IBOutlet UIView *viewRatings;
     __weak IBOutlet UITextView *txtViewNotes;

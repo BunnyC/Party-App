@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import <FacebookSDK/FacebookSDK.h>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,QBActionStatusDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UINavigationController *navController;
 
+- (void)sessionStateChanged:(FBSession *)session state:(FBSessionState) state error:(NSError *)error;
+- (void)userLoggedIn;
+- (void)userLoggedOut;
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : BaseViewController {
+@interface LoginViewController : BaseViewController<UITextFieldDelegate> {
     __weak IBOutlet UITextField *txtFieldUsername;
     
     __weak IBOutlet UITextField *txtFieldPassword;

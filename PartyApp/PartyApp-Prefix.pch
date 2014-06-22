@@ -15,4 +15,11 @@
     #import <Foundation/Foundation.h>
     #import "BaseViewController.h"
     #import "CommonFunctions.h"
+    #import "Constants.h"
+    #import <Quickblox/Quickblox.h>
+    #import <MapKit/MapKit.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+
+#define IS_HEIGHT_GTE_568 [[UIScreen mainScreen ] bounds].size.height == 568.0f
 #endif

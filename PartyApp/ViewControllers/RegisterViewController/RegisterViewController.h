@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegisterViewController : BaseViewController {
+@interface RegisterViewController : BaseViewController<QBActionStatusDelegate,UITextFieldDelegate> {
     
     __weak IBOutlet UITextField *txtFieldUsername;
     __weak IBOutlet UITextField *txtFieldEmail;

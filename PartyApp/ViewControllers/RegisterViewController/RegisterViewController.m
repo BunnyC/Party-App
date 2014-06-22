@@ -95,8 +95,53 @@
 }
 
 - (IBAction)nextButtonAction:(id)sender {
+    
+    QBUUser *objCreateUser=[[QBUUser alloc]init];
+    
+    [objCreateUser setLogin:txtFieldUsername.text];
+    [objCreateUser setEmail:txtFieldEmail.text];
+    [objCreateUser setPassword:txtFieldPassword.text];
+    [objCreateUser setFullName:txtFieldMotto.text]; // FullName Used for Moto
+
+    [QBUsers signUp:objCreateUser delegate:self];
+    
+    /*
     UploadPhotoViewController *objUploadPhotoViewController = [[UploadPhotoViewController alloc] initWithNibName:@"UploadPhotoViewController" bundle:nil];
     [self.navigationController pushViewController:objUploadPhotoViewController animated:YES];
+     */
+}
+
+#pragma mark - TextField Delegate Method
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
+
+#pragma mark - QuickBox Server Response
+-(void)completedWithResult:(Result *)result
+{
+    if([result isKindOfClass:[QBUUserResult class]]){
+        
+        // Success result
+		if(result.success){
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Registration was successful. Please now sign in." message:nil delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+            [alert show];
+            
+            // Errors
+        }else{
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Errors"
+                                                            message:[result.errors description]
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Ok"
+                                                  otherButtonTitles:nil, nil];
+            [alert show];
+           
+		}
+	}	
+ 
 }
 
 @end
