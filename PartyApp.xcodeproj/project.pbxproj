@@ -81,8 +81,6 @@
 		CE35F0991956A73C009DA53D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0981956A73C009DA53D /* CFNetwork.framework */; };
 		CE500F381956BF5000993210 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE500F361956BF5000993210 /* SplashScreenViewController.m */; };
 		CE500F391956BF5000993210 /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE500F371956BF5000993210 /* SplashScreenViewController.xib */; };
-		CEA4BDA31956F3B9007D23EB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4BDA21956F3B9007D23EB /* FacebookSDK.framework */; };
-		CEA4BDA51956F3E7007D23EB /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA4BDA41956F3E7007D23EB /* Quickblox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,8 +185,6 @@
 		CE500F351956BF5000993210 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
 		CE500F361956BF5000993210 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
 		CE500F371956BF5000993210 /* SplashScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreenViewController.xib; sourceTree = "<group>"; };
-		CEA4BDA21956F3B9007D23EB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		CEA4BDA41956F3E7007D23EB /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quickblox.framework; path = "../Downloads/quickblox-ios-sdk-master/Framework/Quickblox.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +192,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA4BDA51956F3E7007D23EB /* Quickblox.framework in Frameworks */,
-				CEA4BDA31956F3B9007D23EB /* FacebookSDK.framework in Frameworks */,
 				CE35F0991956A73C009DA53D /* CFNetwork.framework in Frameworks */,
 				CE35F0971956A734009DA53D /* SystemConfiguration.framework in Frameworks */,
 				CE35F0951956A72D009DA53D /* MobileCoreServices.framework in Frameworks */,
@@ -253,8 +247,6 @@
 		8425AF5D194C3E7800E8CCF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEA4BDA41956F3E7007D23EB /* Quickblox.framework */,
-				CEA4BDA21956F3B9007D23EB /* FacebookSDK.framework */,
 				CE35F0981956A73C009DA53D /* CFNetwork.framework */,
 				CE35F0961956A734009DA53D /* SystemConfiguration.framework */,
 				CE35F0941956A72D009DA53D /* MobileCoreServices.framework */,
