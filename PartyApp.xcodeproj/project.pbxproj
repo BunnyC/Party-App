@@ -35,6 +35,7 @@
 		8425AFBA194C841800E8CCF3 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB7194C841800E8CCF3 /* blueButton@2x.png */; };
 		8425AFBB194C841800E8CCF3 /* magentaButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB8194C841800E8CCF3 /* magentaButton@2x.png */; };
 		8425AFBC194C841800E8CCF3 /* purpleButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB9194C841800E8CCF3 /* purpleButton@2x.png */; };
+		844227FF19585A7A008ABDDE /* appBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 844227FE19585A7A008ABDDE /* appBackground.png */; };
 		84AC0DFA19511AAD00B19446 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC0DF819511AAD00B19446 /* ProfileViewController.m */; };
 		84AC0DFB19511AAD00B19446 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0DF919511AAD00B19446 /* ProfileViewController.xib */; };
 		84AC0DFF19511AD000B19446 /* UploadPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC0DFD19511AD000B19446 /* UploadPhotoViewController.m */; };
@@ -49,6 +50,10 @@
 		84AC0E121951216100B19446 /* onlineImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0D1951216100B19446 /* onlineImage.png */; };
 		84AC0E131951216100B19446 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0E1951216100B19446 /* whiteButton.png */; };
 		84AC0E141951216100B19446 /* yellowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC0E0F1951216100B19446 /* yellowButton.png */; };
+		84AD392A1957D3AA0004915B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AD39281957D3AA0004915B /* FacebookSDK.framework */; };
+		84AD392B1957D3AA0004915B /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AD39291957D3AA0004915B /* Quickblox.framework */; };
+		84AD392C1957FC3C0004915B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0941956A72D009DA53D /* MobileCoreServices.framework */; };
+		84AD392D1957FC3C0004915B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0961956A734009DA53D /* SystemConfiguration.framework */; };
 		84AF856E1953B9FC0012271F /* LogNightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF856C1953B9FC0012271F /* LogNightViewController.m */; };
 		84AF856F1953B9FC0012271F /* LogNightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AF856D1953B9FC0012271F /* LogNightViewController.xib */; };
 		84AF85741953BFF10012271F /* barButtonTick.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AF85701953BFF10012271F /* barButtonTick.png */; };
@@ -76,8 +81,6 @@
 		CE35F08F1956A70E009DA53D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F08E1956A70E009DA53D /* libxml2.dylib */; };
 		CE35F0911956A71A009DA53D /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0901956A71A009DA53D /* libresolv.dylib */; };
 		CE35F0931956A722009DA53D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0921956A722009DA53D /* CoreLocation.framework */; };
-		CE35F0951956A72D009DA53D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0941956A72D009DA53D /* MobileCoreServices.framework */; };
-		CE35F0971956A734009DA53D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0961956A734009DA53D /* SystemConfiguration.framework */; };
 		CE35F0991956A73C009DA53D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35F0981956A73C009DA53D /* CFNetwork.framework */; };
 		CE500F381956BF5000993210 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE500F361956BF5000993210 /* SplashScreenViewController.m */; };
 		CE500F391956BF5000993210 /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE500F371956BF5000993210 /* SplashScreenViewController.xib */; };
@@ -130,6 +133,7 @@
 		8425AFB7194C841800E8CCF3 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
 		8425AFB8194C841800E8CCF3 /* magentaButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magentaButton@2x.png"; sourceTree = "<group>"; };
 		8425AFB9194C841800E8CCF3 /* purpleButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purpleButton@2x.png"; sourceTree = "<group>"; };
+		844227FE19585A7A008ABDDE /* appBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appBackground.png; sourceTree = "<group>"; };
 		84AC0DF719511AAD00B19446 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ViewControllers/ProfileViewController/ProfileViewController.h; sourceTree = "<group>"; };
 		84AC0DF819511AAD00B19446 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ViewControllers/ProfileViewController/ProfileViewController.m; sourceTree = "<group>"; };
 		84AC0DF919511AAD00B19446 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileViewController.xib; path = ViewControllers/ProfileViewController/ProfileViewController.xib; sourceTree = "<group>"; };
@@ -146,6 +150,8 @@
 		84AC0E0D1951216100B19446 /* onlineImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onlineImage.png; sourceTree = "<group>"; };
 		84AC0E0E1951216100B19446 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		84AC0E0F1951216100B19446 /* yellowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowButton.png; sourceTree = "<group>"; };
+		84AD39281957D3AA0004915B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		84AD39291957D3AA0004915B /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 		84AF856B1953B9FC0012271F /* LogNightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogNightViewController.h; path = ViewControllers/LogNightViewController/LogNightViewController.h; sourceTree = "<group>"; };
 		84AF856C1953B9FC0012271F /* LogNightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogNightViewController.m; path = ViewControllers/LogNightViewController/LogNightViewController.m; sourceTree = "<group>"; };
 		84AF856D1953B9FC0012271F /* LogNightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LogNightViewController.xib; path = ViewControllers/LogNightViewController/LogNightViewController.xib; sourceTree = "<group>"; };
@@ -192,11 +198,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AD392C1957FC3C0004915B /* MobileCoreServices.framework in Frameworks */,
+				84AD392D1957FC3C0004915B /* SystemConfiguration.framework in Frameworks */,
 				CE35F0991956A73C009DA53D /* CFNetwork.framework in Frameworks */,
-				CE35F0971956A734009DA53D /* SystemConfiguration.framework in Frameworks */,
-				CE35F0951956A72D009DA53D /* MobileCoreServices.framework in Frameworks */,
 				CE35F0931956A722009DA53D /* CoreLocation.framework in Frameworks */,
 				CE35F0911956A71A009DA53D /* libresolv.dylib in Frameworks */,
+				84AD392A1957D3AA0004915B /* FacebookSDK.framework in Frameworks */,
 				CE35F08F1956A70E009DA53D /* libxml2.dylib in Frameworks */,
 				CE35F08D1956A6CC009DA53D /* libz.dylib in Frameworks */,
 				CE35F08B1956A6B7009DA53D /* CoreMedia.framework in Frameworks */,
@@ -209,6 +216,7 @@
 				8425AF61194C3E7800E8CCF3 /* CoreGraphics.framework in Frameworks */,
 				8425AF63194C3E7800E8CCF3 /* UIKit.framework in Frameworks */,
 				8425AF5F194C3E7800E8CCF3 /* Foundation.framework in Frameworks */,
+				84AD392B1957D3AA0004915B /* Quickblox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +255,8 @@
 		8425AF5D194C3E7800E8CCF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84AD39281957D3AA0004915B /* FacebookSDK.framework */,
+				84AD39291957D3AA0004915B /* Quickblox.framework */,
 				CE35F0981956A73C009DA53D /* CFNetwork.framework */,
 				CE35F0961956A734009DA53D /* SystemConfiguration.framework */,
 				CE35F0941956A72D009DA53D /* MobileCoreServices.framework */,
@@ -334,13 +344,13 @@
 		8425AF90194C461A00E8CCF3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE500F341956BF1700993210 /* SplashScreen */,
-				84AF856A1953B9C80012271F /* LogNightViewController */,
 				8425AFA4194C52FA00E8CCF3 /* BaseViewController */,
+				CE500F341956BF1700993210 /* SplashScreen */,
 				8425AF91194C462600E8CCF3 /* LoginViewController */,
 				84B2C180194D885B006753E4 /* RegisterViewController */,
 				84AC0DF01950AAF000B19446 /* UploadPhotoViewController */,
 				84AC0DF619511A6900B19446 /* ProfileViewController */,
+				84AF856A1953B9C80012271F /* LogNightViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -396,6 +406,7 @@
 		8425AF9C194C52AA00E8CCF3 /* Simple */ = {
 			isa = PBXGroup;
 			children = (
+				844227FE19585A7A008ABDDE /* appBackground.png */,
 				84AF85701953BFF10012271F /* barButtonTick.png */,
 				84AF85711953BFF10012271F /* facebookIcon.png */,
 				84AF85721953BFF10012271F /* location.png */,
@@ -615,6 +626,7 @@
 				CE500F391956BF5000993210 /* SplashScreenViewController.xib in Resources */,
 				84AF85761953BFF10012271F /* location.png in Resources */,
 				84AC0E071951213E00B19446 /* pinkButton@2x.png in Resources */,
+				844227FF19585A7A008ABDDE /* appBackground.png in Resources */,
 				84AF857C1953C0070012271F /* barButtonTick@2x.png in Resources */,
 				84AC0E0A1951213E00B19446 /* yellowButton@2x.png in Resources */,
 				84AF85751953BFF10012271F /* facebookIcon.png in Resources */,
@@ -788,8 +800,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/Gagan/Downloads/quickblox-ios-sdk-master/Framework",
-					/Users/Gagan/Documents/FacebookSDK,
+					/Users/Admin/Projects/PartyApp/iOSCode/PartyApp,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PartyApp/PartyApp-Prefix.pch";
@@ -811,8 +822,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/Gagan/Downloads/quickblox-ios-sdk-master/Framework",
-					/Users/Gagan/Documents/FacebookSDK,
+					/Users/Admin/Projects/PartyApp/iOSCode/PartyApp,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PartyApp/PartyApp-Prefix.pch";

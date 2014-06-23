@@ -9,12 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface SignUpDataStructure : NSObject
-{
-    NSString*  strUserName;
-    NSString*  strEmailId;
-    NSString*  strPassword;
-    NSString*  strMoto;
-}
 
 @property (nonatomic,retain) NSString * strUserName;
 @property (nonatomic,retain) NSString * strEmailId;

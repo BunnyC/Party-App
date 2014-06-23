@@ -10,9 +10,12 @@
 
 @interface Constants : NSObject
 
-FOUNDATION_EXPORT  NSString *const KApplicationID;
-FOUNDATION_EXPORT  NSString *const KAuthorizationKey;
-FOUNDATION_EXPORT  NSString *const KAuthorizationSecret;
-FOUNDATION_EXPORT  NSString *const KAccountKey;
+FOUNDATION_EXPORT NSInteger const _pApplicationID;
+FOUNDATION_EXPORT NSString *const _pAuthorizationKey;
+FOUNDATION_EXPORT NSString *const _pAuthorizationSecret;
+FOUNDATION_EXPORT NSString *const _pAccountKey;
+
+FOUNDATION_EXPORT NSString *const _pudLoggedIn;
+FOUNDATION_EXPORT NSString *const _pudSessionExpiryDate;
 
 @end

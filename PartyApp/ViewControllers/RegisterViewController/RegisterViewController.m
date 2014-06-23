@@ -102,6 +102,8 @@
     [objCreateUser setEmail:txtFieldEmail.text];
     [objCreateUser setPassword:txtFieldPassword.text];
     [objCreateUser setFullName:txtFieldMotto.text]; // FullName Used for Moto
+//    [objCreateUser set]
+//    [objCreateUser setMotto]
 
     [QBUsers signUp:objCreateUser delegate:self];
     

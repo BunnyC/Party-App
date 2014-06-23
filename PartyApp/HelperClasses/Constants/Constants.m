@@ -10,9 +10,14 @@
 
 @implementation Constants
 
-NSString *const KApplicationID=@"11405";
-NSString *const KAuthorizationKey=@"aNmg3TVv-A98-qW";
-NSString *const KAuthorizationSecret=@"BzpdOHDkpLVjXdj";
-NSString *const KAccountKey=@"eYyNwpmdQnAxbyiJs3CG";
+NSInteger const _pApplicationID         = 11405;
+NSString *const _pAuthorizationKey      = @"aNmg3TVv-A98-qW";
+NSString *const _pAuthorizationSecret   = @"BzpdOHDkpLVjXdj";
+NSString *const _pAccountKey            = @"eYyNwpmdQnAxbyiJs3CG";
+
+#pragma mark - UserDefault Keys
+
+NSString *const _pudLoggedIn            = @"IsLoggedIn";
+NSString *const _pudSessionExpiryDate   = @"SessionExpiryDate";
 
 @end

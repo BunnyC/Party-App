@@ -7,7 +7,8 @@
 //
 
 #import "SplashScreenViewController.h"
-#import "LoginViewController.h"
+#import "ProfileViewController.h"
+
 @interface SplashScreenViewController ()
 
 @end
@@ -43,12 +44,13 @@
     
     // QuickBlox application authorization result
     if([result isKindOfClass:[QBAAuthSessionCreationResult class]]){
-        
+
         // Success result
         if(result.success){
-            LoginViewController *objLoginView=[[LoginViewController alloc]initWithNibName:@"LoginViewController" bundle:nil];
-            [self.navigationController pushViewController:objLoginView animated:YES];
-            objLoginView=nil;
+
+            NSDate *sessionExpDate = [[QBBaseModule sharedModule] tokenExpirationDate];
+            [[NSUserDefaults standardUserDefaults] setObject:sessionExpDate
+                                                      forKey:_pudSessionExpiryDate];
     
         }
         else{

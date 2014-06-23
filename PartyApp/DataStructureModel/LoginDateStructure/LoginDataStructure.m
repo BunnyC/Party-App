@@ -9,7 +9,5 @@
 #import "LoginDataStructure.h"
 
 @implementation LoginDataStructure
-@synthesize strPassword;
-@synthesize strUserName;
 
 @end

@@ -7,9 +7,10 @@
 //
 
 #import "ProfileViewController.h"
+#import "LoginViewController.h"
 #import "LogNightViewController.h"
 
-@interface ProfileViewController ()
+@interface ProfileViewController () <QBActionStatusDelegate>
 
 @end
 
@@ -28,7 +29,22 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:_pudLoggedIn]) {
+        LoginViewController *objLoginView = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:objLoginView];
+        [self presentViewController:navigationController animated:NO completion:nil];
+    }
+    
 }
+
+//- (void)viewWillAppear:(BOOL)animated {
+//    NSUserDefaults *userDefs = [NSUserDefaults standardUserDefaults];
+//    NSDate *sessionExpDate = [userDefs objectForKey:_pudSessionExpiryDate];
+//    
+//    if ([[NSDate date] timeIntervalSinceDate:sessionExpDate] > 0)
+//        [QBAuth createSessionWithDelegate:self];
+//}
 
 - (void)didReceiveMemoryWarning
 {

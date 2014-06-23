@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
-@interface AppDelegate : UIResponder <UIApplicationDelegate,QBActionStatusDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,QBActionStatusDelegate> {
+    BOOL refreshingSession;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 @property (strong, nonatomic) UINavigationController *navController;

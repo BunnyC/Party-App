@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SplashScreenViewController : UIViewController<QBActionStatusDelegate>
+@interface SplashScreenViewController : BaseViewController <QBActionStatusDelegate>
 
 @end

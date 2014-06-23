@@ -11,7 +11,7 @@
 #import "LoginModel.h"
 #import <FacebookSDK/FacebookSDK.h>
 #import "AppDelegate.h"
-@interface LoginViewController () <UITextFieldDelegate, UITextViewDelegate>
+@interface LoginViewController () <UITextFieldDelegate, UITextViewDelegate, QBActionStatusDelegate>
 
 @end
 
@@ -29,7 +29,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     
     // Do any additional setup after loading the view from its nib.
     [self.navigationController setNavigationBarHidden:true animated:true];
@@ -124,7 +123,7 @@
          ^(FBSession *session, FBSessionState state, NSError *error) {
              
              // Retrieve the app delegate
-             AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
+             AppDelegate* appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
              // Call the app delegate's sessionStateChanged:state:error method to handle session state changes
              [appDelegate sessionStateChanged:session state:state error:error];
          }];
@@ -147,15 +146,17 @@
     return YES;
 }
 
-#pragma mark - server Response
+#pragma mark - Server Response
 
-// QuickBlox API queries delegate
-
-
--(void)serverResponse:(QBUUser *)userDetail;
+-(void)serverResponse:(Result *)userLoginResult;
 {
-    NSLog(@"User Detail %@", userDetail);
+    if (userLoginResult.success) {
+//        [QBAuth createSessionWithDelegate:self];
+        [[NSUserDefaults standardUserDefaults] setBool:true forKey:_pudLoggedIn];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        [self dismissViewControllerAnimated:true completion:nil];
+    }
+//    NSLog(@"User Detail %@", userDetail);
 }
-
 
 @end

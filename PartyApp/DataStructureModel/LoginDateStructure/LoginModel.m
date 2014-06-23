@@ -15,7 +15,9 @@
     _delegate=target;
     _handler=selector;
     
-    [QBUsers logInWithUserLogin:[loginDetail objectForKey:@"UserName"] password:[loginDetail objectForKey:@"Password"] delegate:self];
+    [QBUsers logInWithUserLogin:[loginDetail objectForKey:@"UserName"]
+                       password:[loginDetail objectForKey:@"Password"]
+                       delegate:self];
     
 }
 
@@ -26,6 +28,9 @@
 {
     if([result isKindOfClass:[QBUUserLogInResult class]]){
 		
+        [[NSUserDefaults standardUserDefaults] setBool:result.success
+                                                forKey:_pudLoggedIn];
+        
         // Success result
         if(result.success){
             
@@ -34,7 +39,9 @@
             // save current user
             NSLog(@"UserName: %@ ",res.user);
             
-            [_delegate performSelectorOnMainThread:_handler withObject:res waitUntilDone:NO];
+            [_delegate performSelectorOnMainThread:_handler
+                                        withObject:result
+                                     waitUntilDone:YES];
         
             // Errors
         }else{

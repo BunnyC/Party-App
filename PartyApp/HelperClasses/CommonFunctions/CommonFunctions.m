@@ -56,14 +56,11 @@
         fileName = [NSString stringWithFormat:@"%@4", fileName];
     
     UIColor *colorFromImage = [UIColor blackColor];
-//    NSString *pathForImage = [[NSBundle mainBundle] pathForResource:fileName ofType:type];
-//    UIImage *imageAtPath = [UIImage imageWithContentsOfFile:pathForImage];
-//    colorFromImage = [UIColor colorWithPatternImage:imageAtPath];
-    
+    NSString *pathForImage = [[NSBundle mainBundle] pathForResource:fileName ofType:type];
+    UIImage *imageAtPath = [UIImage imageWithContentsOfFile:pathForImage];
     CGSize screenSize = [UIScreen mainScreen].bounds.size;
-    
-    UIImage *backImage = [UIImage imageNamed:fileName];
-    UIImage *resizedImage = [self imageWithImage:backImage scaledToSize:CGSizeMake(320, screenSize.height - 64)];
+    UIImage *resizedImage = [self imageWithImage:imageAtPath
+                                    scaledToSize:CGSizeMake(320, screenSize.height - 64)];
     colorFromImage = [UIColor colorWithPatternImage:resizedImage];
     return colorFromImage;
 }

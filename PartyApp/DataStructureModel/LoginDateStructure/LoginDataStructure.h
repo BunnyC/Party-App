@@ -9,10 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface LoginDataStructure : NSObject
-{
-    NSString*  strUserName;
-    NSString*  strPassword;
-}
 
 @property (nonatomic,retain) NSString* strUserName;
 @property (nonatomic,retain) NSString* strPassword;
