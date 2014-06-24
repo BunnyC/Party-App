@@ -211,7 +211,7 @@
 // Show the user the logged-in UI
 - (void)userLoggedIn
 {
-    
+    NSLog(@"hello");
     NSArray *permissionsNeeded = @[@"public_profile"];
     
     // Request the permissions the user currently has
